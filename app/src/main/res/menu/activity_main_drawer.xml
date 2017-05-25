@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_comparion_12_3"
+            android:icon="@drawable/ic_menu_graph"
+            android:title="@string/nav_comparion_12_3_ua" />
+        <item
+            android:id="@+id/nav_comparion_3_1"
+            android:icon="@drawable/ic_chart_bar"
+            android:title="@string/nav_comparion_3_1_ua" />
+        <item
+            android:id="@+id/nav_comparion_1_exp"
+            android:icon="@drawable/ic_chart_line"
+            android:title="@string/nav_comparion_1_exp_ua" />
+        <item
+            android:id="@+id/nav_comparion_12_exp"
+            android:icon="@drawable/ic_chart_areaspline"
+            android:title="@string/nav_comparion_12_exp_ua"/>
+        <item
+            android:id="@+id/nav_comparion_1_exp_dec"
+            android:icon="@drawable/ic_chart_areaspline"
+            android:title="@string/nav_comparion_1_exp_dec_ua" />
+    </group>
+
+    <item android:title="@string/nav_service_ua">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings_app"
+                android:title="@string/action_settings_ua" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_menu_info"
+                android:title="@string/nav_info_ua" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit_app"
+                android:title="@string/nav_exit_ua" />
+        </menu>
+    </item>
+
+</menu>
